@@ -7,6 +7,9 @@ export default interface Annotation {
   color?: string;
   background?: string;
   opacity?: string; // "0.0" to "1.0"
+  orientation?: string;
+  image?: string;
+  maskcolor?: string;
   border?: Border;
   font?: Font;
   start?: LineNode;
